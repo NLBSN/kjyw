@@ -13,7 +13,7 @@ echo "当前目录为:$nagiosdir"
 echo "本机ip为:$ip"
 
 echo "安装开始前请仔细阅读README.md"
-cat $nagiosdir/README.md
+cat $nagiosdir/README_old.md
 
 echo "本代码为交互代码，个别地方需要手动输入.报警邮箱设置方法如下:vi /etc/mail.rc 添加你的发件邮箱地址已经smtp，如下 set from=xtlyk@163.com smtp=smtp.163.com set smtp-auth-user=xtlyk@163.com smtp-auth-password=000000 smtp-auth=login 可以通过一下命令测试 echo "Hello World" | mail xtlyk@163.com"
 read -p  "Are you sure install nagios(y) or quit(n):" isY

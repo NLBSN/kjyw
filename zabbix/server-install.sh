@@ -7,7 +7,7 @@ zabbixdir=`pwd`
 ip=`ip addr |grep inet |egrep -v "inet6|127.0.0.1" |awk '{print $2}' |awk -F "/" '{print $1}'`
 release=`cat /etc/redhat-release | awk -F "release" '{print $2}' |awk -F "." '{print $1}' |sed 's/ //g'`
 
-cat $zabbixdir/README.md
+cat $zabbixdir/README_old.md
 
 
 

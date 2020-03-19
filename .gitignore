@@ -1,3 +1,4 @@
 *.exe
 *.user
 *.log
+.idea
